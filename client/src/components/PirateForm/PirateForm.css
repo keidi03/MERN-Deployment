@@ -1,0 +1,26 @@
+.d-flex{
+    display: flex;
+}
+
+.form{
+    display: flex;
+    gap:60px;
+}
+
+.leftform{
+    flex-direction: column;
+    flex: 1 1 50%
+}
+
+.rightform {
+    flex-direction: column;
+    flex: 1 1 50%
+
+}
+.bluebtn{
+    color: white;
+    background-color: #085394;
+    /* margin-left: 20px; */
+    /* margin-top: 30px; */
+    box-shadow: 3px 3px black;
+}

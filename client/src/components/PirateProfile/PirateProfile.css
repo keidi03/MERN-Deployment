@@ -1,0 +1,33 @@
+
+.cardBody{
+    flex-direction: row;
+}
+.leftSide{
+    /* flex: 1 1 50%; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rightSide{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border: 3px solid black;
+    text-align: left;
+
+}
+
+.rightSide p {
+    display: flex;
+    gap: 50px;
+}
+
+.rightSide span{
+    width: 50px;
+    text-align: center;
+}

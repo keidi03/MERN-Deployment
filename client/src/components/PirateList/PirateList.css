@@ -1,0 +1,59 @@
+.piratesContainer{
+    /* padding: 40px 40px; */
+    background-color: #ff9900;
+}
+
+
+.pirateWrapper{
+    display: flex;
+    background: whitesmoke;
+    border: 1px solid black;
+    flex-direction: row;
+    padding: 10px 20px;
+}
+.cardHeader{
+    background-color: #783f04;
+}
+.profilePhoto{
+    flex: 1 1 30%;
+}
+.bluebtn{
+    color: white;
+    background-color: #085394;
+    margin-left: 20px;
+    margin-top: 30px;
+    box-shadow: 3px 3px black;
+}
+
+.cardHeader .bluebtn {
+    margin:0;
+    padding:0;
+}
+
+.redbtn{
+    color: white;
+    background-color: #cf2a27;
+    margin-left: 20px;
+    box-shadow: 3px 3px black;
+}
+.pirateInfo{
+
+    flex: 1 1 70%;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+.sp-around{
+    justify-content: space-around;
+}
+
+.a-items{
+    align-items: center;
+}
+
+.sp-bt{
+    justify-content: space-between;
+}
